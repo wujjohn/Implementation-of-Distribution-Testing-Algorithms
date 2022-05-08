@@ -20,7 +20,6 @@ import numpy as np
 import math
 
 def coincidence_based_tester(n, epsilon, S):
-    # constants for threshold
     c_m = 2.1
     c_t = 0.35 
     
