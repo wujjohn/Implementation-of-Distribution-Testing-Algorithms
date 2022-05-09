@@ -1,8 +1,7 @@
 import math
 
-
 """
-This funtion implements l2 estimator for uniformity testing.
+This funtion implements l2 estimator for uniformity testing given by
 https://theoryofcomputing.org/articles/gs009/gs009.pdf 
 
 
