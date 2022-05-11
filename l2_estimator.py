@@ -1,7 +1,8 @@
 import math
 
 """
-This funtion implements l2 estimator for uniformity testing given by
+This funtion implements l2 estimator for uniformity testing when error
+rate delta = 1/3. This algorithm is given by
 https://theoryofcomputing.org/articles/gs009/gs009.pdf 
 
 
