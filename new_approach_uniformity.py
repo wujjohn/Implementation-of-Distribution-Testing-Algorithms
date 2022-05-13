@@ -15,8 +15,7 @@ def lemma_21(n, epsilon, p_u, q_u):
   
   bigOconstant = 5.9
   
-  expected_SC = int(math.sqrt(n)/(epsilon**2) * bigOconstant)
-  theoretical_SC = int(numpy.random.poisson(expected_SC))
+  theoretical_SC = int(math.sqrt(n)/(epsilon**2) * bigOconstant)
 
   p = random.choices(p_u, k=theoretical_SC) 
   q = random.choices(q_u, k=theoretical_SC) 
