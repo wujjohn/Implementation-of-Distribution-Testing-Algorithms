@@ -18,7 +18,7 @@ def chi_squared(n, epsilon, q, s):
   if len(S) < m:
     return "must be at least " +str(m)+" samples"
   if n != len(q):
-    return "lengh of q must match n"
+    return "length of q must match n"
 
   a = [i for i in range(n) if q[i] >= epsilon/(50*n)]
 
