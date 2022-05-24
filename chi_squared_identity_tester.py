@@ -4,7 +4,7 @@ https://arxiv.org/pdf/1507.05952.pdf
 
 
 Parameters:
-n: total number of bins in distribution, {100, 1000, 10000}
+n: total number of bins in distribution, [100, 10000]
 epsilon: deviation, a double-float number between [0.1, 0.5]
 q: weight of the known distribution, expected to be a list of float numbers,
     that length is n and sum of the list is 1
