@@ -15,7 +15,7 @@ def chi_squared(n, epsilon, q, s):
   c_m = 1.45
   c_t = 0.382
   m = int(c_m*(n**0.5)/(epsilon**2))
-  if len(S) < m:
+  if len(s) < m:
     return "must be at least " +str(m)+" samples"
   if n != len(q):
     return "length of q must match n"
