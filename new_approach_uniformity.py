@@ -23,11 +23,11 @@ def lemma_21(n, epsilon, p_u, q_u):
   Z = 0.0 #test statistic z
   C = 0.45 #constant for threshold
 
-  X = [0.0] * len(p) 
+  X = [0.0] * n
   for i in p:
     X[i] += 1.0
   
-  Y = [0.0] * len(q) 
+  Y = [0.0] * n 
   for i in q:
     Y[i] += 1.0
 
